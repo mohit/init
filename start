@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# --- Environment Init for Ubuntu ---
+
+
+# get basic working environment
+sudo apt-get install vim git xmonad
+
+
+# get vim settings
+
+git clone git@github.com:m0hit/vim.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+mkdir ~/.vim/backup
+mkdir ~/.vim/swp
+
+# get xmonad settings
+
+### XXX: something based on 
+      
+#        https://gist.github.com/3156991
+# and    http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_in_Gnome#Ubuntu_Precise
+
+
+# other tools
+sudo apt-get install htop curl bash-completion
