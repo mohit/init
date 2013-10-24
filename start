@@ -4,7 +4,7 @@
 
 
 # get basic working environment
-sudo apt-get install vim git xmonad
+sudo apt-get install vim git xmonad zsh
 
 
 # get vim settings
