@@ -3,8 +3,8 @@
 
 # get some vim powerline patched fonts
 mkdir ~/.fonts
-cd ~/.fonts/ && git clone https://github.com/scotu/ubuntu-mono-powerline.git && cd ~
-#  more?
+cd ~/.fonts/ && git clone --depth 1 https://github.com/scotu/ubuntu-mono-powerline.git && cd ~
+cd ~/.fonts/ && git clone --depth 1 https://github.com/powerline/fonts.git powerline && cd ~
 
 # install solarized
 git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/tmp/gnome-solarized
